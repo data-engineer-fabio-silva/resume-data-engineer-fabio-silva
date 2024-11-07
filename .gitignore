@@ -2,6 +2,8 @@
 templates/
 app.py
 requirements.txt
+/build/
+!/build/**/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
