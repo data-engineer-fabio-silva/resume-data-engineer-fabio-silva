@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Fabio Silva - Data Engineer</title>
-  <meta name="description" content="fork github ritaly/HTML-CSS-CV-demo">
+  <meta name="description" content="Resume of Fabio Silva, Data Engineer with 3+ years of experience building data platforms and analytics solutions, and 5+ years in IT.">
   <link rel="icon" href="./static/img/icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -11,160 +11,156 @@
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="box">
-        <div class="box" style="display: flex; justify-content: left;">
-          <img src="./static/img/lakehouse.png" style="width: 125px;">
-        </div>
-        <div class="box" style="display: flex; justify-content: left;">
-          <img src="./static/img/azure.png" style="width: 100px;">
-        </div>
-      </div>
-      
-      <div class="box">
-        <img src="./static/img/avatar.jpg" style="width: 100px;">
-        <h1>Fabio Silva</h1>
-        </p>With 3+ years as Data Engineer and 5+ years in IT.</p>
-        <a href="https://linkedin.com/in/data-engineer-fabio-silva" target="_blank">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://github.com/data-engineer-fabio-silva" target="_blank">
-          <i class="fab fa-github-alt"></i>
-        </a>
-        <a href="https:wa.me/5514991729364" target="_blank">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-        <a href="mailto:fabioos613@gmail.com">
-          <i class="fa fa-at"></i>
-        </a>
-      </div>
-
-      <div class="box" style="display: flex; justify-content: center; align-items: flex-end;">
-        </p>"In God we trust; all others must bring data”. William Edwards Deming</p>
-      </div>
-      
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./index.html" class="brand">
+        <span class="brand-square"></span>
+        <span class="brand-text"><strong>Fabio Silva</strong> <span class="brand-slash">/</span> <span class="brand-subtitle">DATA ENGINEER</span></span>
+      </a>
+      <nav class="top-nav">
+        <a href="#about" class="active">ABOUT ME</a>
+        <a href="#curriculum">CURRICULUM</a>
+        <a href="./projects.html">PROJECTS</a>
+        <a href="#competences">COMPETENCES</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <section>
+  <div class="two-column-layout">
+    <aside class="left-panel">
+      <img src="./static/img/avatar.jpg" class="panel-avatar" alt="Photo of Fabio Silva">
+      <h1 class="panel-name">Fabio Silva</h1>
+      <div class="panel-line"></div>
+      <p class="panel-title">Data Engineer</p>
+      <div class="panel-social-box">
+        <a href="https://linkedin.com/in/data-engineer-fabio-silva" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/data-engineer-fabio-silva" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fab fa-github-alt"></i>
+        </a>
+        <a href="https://wa.me/5514991729364" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="mailto:fabioos613@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </aside>
+
+    <main class="right-panel">
+      <section id="about" class="about-section">
+        <p class="welcome"><span class="welcome-icon">Hi:</span> It's nice to have you here.</p>
+        <div class="cta-buttons">
+          <a href="#curriculum" class="btn-primary">CURRICULUM</a>
+          <a href="#competences" class="btn-secondary">COMPETENCES</a>
+        </div>
+        <div class="about-me">
+          <p>My name is Fabio and I'm a data engineer with over three years of experience building data platforms and analytics solutions, and more than five years in IT.</p>
+          <p>I focus on designing pipelines, cloud architectures, and analytics that create real value — from global sales analytics to inspection and compliance processes. I've worked across segments such as fintech, legal, accounting, and global IT.</p>
+          <p>When I'm not working with data, I keep learning and improving. My goal is to deliver reliable, scalable solutions and to keep getting better every day.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="content-wrap">
+    <section id="curriculum" class="content-section">
+      <h2>Curriculum</h2>
       <h3>Main achievements</h3>
-      <div class='job-title'>
+      <div class="job-title">
         <article>
-       
           <ul>
-            <li>
-              Worked on a project with global impact on Intel sales team as outsourcing employee.
-            </li>
-            <li>
-              Creation a pipeline, architecture and codes to generate improvements in the fiscalization process on a federal company.           
-            </li>
-            <li>   
-              Participation in a database migration, from MongoDB to AWS RDS Postgres.
-            </li>
-            <li>
-              Creation a Row Level Security using SQL in Metabase.
-            </li>
+            <li>Contributed to a global analytics project supporting Intel's sales organization as an outsourced Data Engineer.</li>
+            <li>Designed and implemented data pipelines and architecture that improved the inspection (fiscalization) process at a federal company.</li>
+            <li>Supported a database migration from MongoDB to AWS RDS for PostgreSQL.</li>
+            <li>Implemented row-level security in Metabase using SQL to protect sensitive data.</li>
           </ul>
         </article>
       </div>
-    </section>
-
-    <section>
       <h3>Experience</h3>
-      <div class='job-title'>
-
+      <div class="job-title">
         <article>
-          <strong>Company:</strong> 
-          Intel<br>
-          <strong>Period:</strong> 
-          6 months<br>
-          <strong>Position:</strong> 
-          Data Engineer / Mid Level / Outsourced employee<br>
-          <br>
-          <strong>Company:</strong> 
-          Luby - Software Consulting<br>  
-          <strong>Period:</strong> 
-          2 years 8 months<br>
-          <strong>Position:</strong> 
-          Data Engineer / Mid Level<br>
+          <h4>Data Engineer – Intel (Outsourced)</h4>
+          <span>6 months</span>
+          <p>Mid-level Data Engineer supporting global sales analytics initiatives as an outsourced employee.</p>
+        </article>
+        <article>
+          <h4>Data Engineer – Luby Software Consulting</h4>
+          <span>2 years 8 months</span>
+          <p>Mid-level Data Engineer delivering data solutions for clients across fintech, legal, and other segments.</p>
         </article>
       </div>
+      <h3>Certifications</h3>
+      <article class="cert-list">
+        <div class="title">Databricks Lakehouse Fundamentals</div>
+        <div class="title">Microsoft Certified: Azure Fundamentals</div>
+      </article>
+      <h3>Education</h3>
+      <article>
+        <div class="school"><strong>M.Sc. Artificial Intelligence</strong></div>
+        <div class="descrition">Multi-objective optimization</div>
+      </article>
+      <article>
+        <div class="school"><strong>B.S. Computer Engineering</strong></div>
+        <div class="descrition">Internet of Things and Automation</div>
+      </article>
+      <h3>Languages</h3>
+      <article>
+        <p>English – Advanced · French – Basic · Portuguese – Native speaker</p>
+      </article>
     </section>
-    
-    <section>
-      <h3>Competences</h3>
+
+    <section id="competences" class="content-section">
+      <h2>Competences</h2>
       <h4>Main Skills</h4>
-      <div class='skills'>
+      <div class="skills">
         <ul>
-          <li>Python; Spark; SQL; AWS</li>
+          <li>Python</li>
+          <li>Apache Spark</li>
+          <li>SQL</li>
+          <li>AWS</li>
         </ul>
       </div>
       <h4>Worked Segments</h4>
-      <div class='skills'>
+      <div class="skills">
         <ul>
-          <li>Global IT Company; Lawyer Startup; Accounting; Lawyer/Fintech; Fintech Startup; Stock Broker; Online Betting</li>
+          <li>Global IT company</li>
+          <li>Lawyer startup</li>
+          <li>Accounting</li>
+          <li>Lawyer / fintech</li>
+          <li>Fintech startup</li>
+          <li>Stock broker</li>
+          <li>Online betting</li>
         </ul>
       </div>
       <h4>Stack</h4>
-      <div class='skills'>
+      <div class="skills stack-list">
         <ul>
-          <li>Artificial Intelligence; AZ-900 and Databricks; AWS, Azure and GCP; Databricks Azure; SSAS - SQL Server Analytical Services; Programming languages: Python, SQL, Scala, C, C++, Java, PL/SQL, PowerShell and SAQL; Pentaho, Azure Data Factory and AWS Glue; Postgres, Sql Server, MySQL, Oracle and MongoDB;  AWS Redshift, GCP BigQuery, Snowflake and Dremio; Spark Python; Terraform; AWS S3, Azure Storage Account and GCP Cloud Storage; Insomnia; AWS EC2 and Contabo; Docker/Docker Compose; Airflow; AWS Athena and SQL; Github Actions and Copado; AWS IAM; Git, Github and Gitlab; Power BI, Metabase and Analytics Studio; Selenium Python; Imperative and Object-oriented; SCRUM and Kanban; Clickup, Jira and Trello</li>
+          <li><strong>Cloud & certifications:</strong> AWS, Azure, GCP, AZ-900, Databricks Lakehouse</li>
+          <li><strong>Data platforms:</strong> Databricks (Azure), AWS Redshift, GCP BigQuery, Snowflake, Dremio, SSAS</li>
+          <li><strong>Databases:</strong> PostgreSQL, SQL Server, MySQL, Oracle, MongoDB</li>
+          <li><strong>Data engineering:</strong> Apache Spark (Python), Airflow, AWS Glue, Azure Data Factory, Pentaho</li>
+          <li><strong>Storage & compute:</strong> AWS S3, Azure Storage Account, GCP Cloud Storage, AWS EC2, Contabo</li>
+          <li><strong>Analytics & BI:</strong> Power BI, Metabase, Analytics Studio, AWS Athena (SQL)</li>
+          <li><strong>Languages & scripting:</strong> Python, SQL, Scala, C, C++, Java, PL/SQL, PowerShell, SAQL</li>
+          <li><strong>DevOps & tooling:</strong> Docker / Docker Compose, Terraform, Git, GitHub, GitLab, GitHub Actions, Copado, Insomnia</li>
+          <li><strong>Ways of working:</strong> Object-oriented and imperative programming, Scrum, Kanban</li>
+          <li><strong>Project tools:</strong> ClickUp, Jira, Trello</li>
         </ul>
       </div>
     </section>
+  </div>
 
-    <section>
-      <h3>Certifications</h3>
-      <article>
-        <div class='title'>
-          <h4>Databricks Lakehouse Fundamentals</h4>
-        </div>
-      </article>
-      <article>
-        <div class='title'>
-          <h4>Microsoft Certified: Azure Fundamentals</h4>
-        </div>
-      </article>
-      
-    </section>
-
-    <section>
-      <h3>Education</h3>
-      <article>
-        <div class='school'>
-          <strong>M.Sc. Artificial Intelligence</strong>
-        </div>
-        <div class="descrition">
-          Many Objective Optimization
-        </div>
-      </article>
-      <br>
-      <article>
-        <div class='school'>
-          <strong>B.S. Computer Engineering</strong>
-        </div>
-        <div>
-          Internet of Thing and Automation
-        </div>
-      </article>
-    </section>
-  
-    <section>     
-      <h3>Languages</h3>
-      <article>
-        <div class='school'>
-          <p>English - Advanced</p>
-          <p>French - Basic</p>
-          <p>Portuguese - Native speaker</p>
-        </div>
-      </article>
-    </section>
-
-  </main>
-  <footer>
-    <p>Last Updated: 10/24/2024 </p>
+  <footer id="contact">
+    <div class="footer-social">
+      <a href="https://linkedin.com/in/data-engineer-fabio-silva" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+      <a href="https://github.com/data-engineer-fabio-silva" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+      <a href="https://wa.me/5514991729364" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WhatsApp</a>
+      <a href="mailto:fabioos613@gmail.com" aria-label="Email">Email</a>
+    </div>
+    <p class="last-updated">Last updated: March 2026</p>
   </footer>
 </body>
 </html>
